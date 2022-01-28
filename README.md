@@ -14,7 +14,7 @@ _$ pip install -r requirements.txt_
 2. Standing at root directory: 'webapp-locust-performance-test-sample', open terminal/command-line window
 3. Run the sample test by starting Locust local server:
 
-_$ locust_
+_$ locust --host=https://openweathermap.org/_
 
 4. Open: http://localhost:8089/ on browser and press button: Start Swarming
 5. View real-time report on Report tab (sample report file attached: sample_report_1643344615.1709526.html)

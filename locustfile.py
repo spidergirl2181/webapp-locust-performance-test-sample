@@ -22,5 +22,5 @@ class SearchQuery(HttpUser):
             if response.status_code == HTTPStatus.OK:
                 response.success()
             else:
-                response.failure(f"Failed! Http Code `{response.status_code}`")
+                response.failure(response.status_code)
 
